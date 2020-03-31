@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd14b7f3-c0fb-461b-a298-c717dcff35b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-    </list>
+    <list default="true" id="bd14b7f3-c0fb-461b-a298-c717dcff35b7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,12 +21,18 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="cursoMysql" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="cursoMysql" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cursoMysql" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="hcode: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
     </expand>
     <select />
@@ -60,7 +64,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../docker-crash-course/03-todo-web-application-mysql" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -96,21 +100,17 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.265787" />
+          <option name="contentProportion" value="0.17987533" />
           <treeState>
             <expand>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="cursoMysql: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@3f6d3a00" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="cursoMysql: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@22b8daa3" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -131,7 +131,8 @@
       <updated>1585506415801</updated>
       <workItem from="1585506417497" duration="131000" />
       <workItem from="1585506604778" duration="80000" />
-      <workItem from="1585507172205" duration="3668000" />
+      <workItem from="1585507172205" duration="7126000" />
+      <workItem from="1585671991857" duration="18133000" />
     </task>
     <servers />
   </component>
@@ -139,17 +140,42 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="164" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585510194784">
-      <screen x="0" y="0" width="1167" height="656" />
+    <state x="193" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585675845507">
+      <screen x="0" y="0" width="1376" height="774" />
     </state>
-    <state x="164" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1167.656@0.0.1167.656" timestamp="1585510194784" />
+    <state x="164" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1167.656@0.0.1167.656" timestamp="1585511101959" />
+    <state x="193" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1376.774@0.0.1376.774" timestamp="1585675845507" />
     <state x="264" y="0" key="FileChooserDialogImpl" timestamp="1585507459275">
       <screen x="0" y="0" width="1167" height="656" />
     </state>
     <state x="264" y="0" key="FileChooserDialogImpl/0.0.1167.656@0.0.1167.656" timestamp="1585507459275" />
+    <state width="1041" height="238" key="GridCell.Tab.0.bottom" timestamp="1585678902943">
+      <screen x="0" y="0" width="1376" height="774" />
+    </state>
+    <state width="824" height="247" key="GridCell.Tab.0.bottom/0.0.1167.656@0.0.1167.656" timestamp="1585513445414" />
+    <state width="1041" height="238" key="GridCell.Tab.0.bottom/0.0.1376.774@0.0.1376.774" timestamp="1585678902943" />
+    <state width="1041" height="238" key="GridCell.Tab.0.center" timestamp="1585678902943">
+      <screen x="0" y="0" width="1376" height="774" />
+    </state>
+    <state width="824" height="247" key="GridCell.Tab.0.center/0.0.1167.656@0.0.1167.656" timestamp="1585513445413" />
+    <state width="1041" height="238" key="GridCell.Tab.0.center/0.0.1376.774@0.0.1376.774" timestamp="1585678902943" />
+    <state width="1041" height="238" key="GridCell.Tab.0.left" timestamp="1585678902943">
+      <screen x="0" y="0" width="1376" height="774" />
+    </state>
+    <state width="824" height="247" key="GridCell.Tab.0.left/0.0.1167.656@0.0.1167.656" timestamp="1585513445413" />
+    <state width="1041" height="238" key="GridCell.Tab.0.left/0.0.1376.774@0.0.1376.774" timestamp="1585678902943" />
+    <state width="1041" height="238" key="GridCell.Tab.0.right" timestamp="1585678902943">
+      <screen x="0" y="0" width="1376" height="774" />
+    </state>
+    <state width="824" height="247" key="GridCell.Tab.0.right/0.0.1167.656@0.0.1167.656" timestamp="1585513445413" />
+    <state width="1041" height="238" key="GridCell.Tab.0.right/0.0.1376.774@0.0.1376.774" timestamp="1585678902943" />
     <state x="110" y="0" key="NewModule_or_Project.wizard" timestamp="1585507462089">
       <screen x="0" y="0" width="1167" height="656" />
     </state>
     <state x="110" y="0" key="NewModule_or_Project.wizard/0.0.1167.656@0.0.1167.656" timestamp="1585507462089" />
+    <state x="238" y="0" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1" timestamp="1585511423394">
+      <screen x="0" y="0" width="1167" height="656" />
+    </state>
+    <state x="238" y="0" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1/0.0.1167.656@0.0.1167.656" timestamp="1585511423394" />
   </component>
 </project>
